@@ -1,10 +1,10 @@
 
-function ServiceBox({title}){
+function ServiceBox({title,icon}){
     return(
         <div className="col-4">
             <div className="service-box">
                 <div className="service-icon">
-                    <i className="bi bi-briefcase"></i>
+                    <i className={icon} ></i>
                 </div>
                 <div class="service-content">
                     <h3 className="service-title">{title}</h3>

@@ -2,12 +2,12 @@ import "../style/srvice.css"
 import ServiceBox from "./ServiceBox";
 
 let titles = [ 
-    {title : "WEB DESIGN"},
-    {title : "WEB DEVELOPMENT"},
-    {title : "PHOTOGRAPHY"},
-    {title : "RESPONSIVE DESIGN"},
-    {title : "GRAPHIC DESIGN"},
-    {title : "MARKETING SERVICES"}
+    {title : "WEB DESIGN" , icon :"bi bi-briefcase"},
+    {title : "WEB DEVELOPMENT", icon :"bi bi-card-checklist"},
+    {title : "PHOTOGRAPHY" ,icon :"bi bi-bar-chart"},
+    {title : "RESPONSIVE DESIGN" , icon :"bi bi-briefcase"},
+    {title : "GRAPHIC DESIGN" , icon :"bi bi-card-checklist"},
+    {title : "MARKETING SERVICES" ,icon :"bi bi-briefcase"}
 ]; 
 
 function Service(){
