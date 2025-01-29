@@ -4,18 +4,9 @@ function About(){
         <section id="about">
             <div class="about">
                 <h2 class="title">About Me</h2>
-                <img class="about-img" src="../assets/img/about.jpg" alt="milad" />
+                <img class="about-img" src="./public/img/about.jpg" alt="milad" />
                 <p class="info">
-                    Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-                    Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
-                    Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget
-                    tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                    porttitor volutpat. Vestibulum ac diam sit amet quam vehicula
-                    elementum sed sit amet dui. porttitor at sem. Nulla porttitor accumsan
-                    tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id
-                    enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit,
-                    eget tincidunt nibh pulvinar a.
+                    A creative and passionate software engineer with expertise in **Laravel**, **Vue.js**, and **React.js**, dedicated to building dynamic and scalable web applications. By combining deep knowledge of modern frameworks with hands-on experience in designing interactive user interfaces, I craft solutions that deliver high performance and exceptional user experiences. Always eager to embrace new opportunities for learning and innovation, I strive to create software that exceeds expectations.
                 </p>
             </div>
         </section>
