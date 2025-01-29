@@ -1,5 +1,19 @@
 import "../style/blog.css"
-
+import BlogBox from "./BlogBox";
+let posts = [
+  { 
+    title:"post 1",
+    user : "Mehrzad",
+  },
+  { 
+    title:"post 2",
+    user : "Milad",
+  },
+  { 
+    title:"post 3",
+    user : "Mehrzad",
+  }
+]
 
 function Blog(){
     return(
@@ -12,75 +26,9 @@ function Blog(){
             </p>
           </div>
           <div className="row">
-            <div className="col-4">
-              <div className="blog-box">
-                <div className="blog-img">
-                  <img src="./img/post-1.jpg" className="img-fluid" />
-                </div>
-                <div className="blog-content">
-                  <h3 className="blog-title">post title 1</h3>
-                  <p className="blog-desc">
-                    Proin eget tortor risus. Pellentesque in ipsum id orci porta
-                    dapibus. Praesent sapien massa, convallis a pellentesque nec,
-                    egestas non nisi.
-                  </p>
-                </div>
-                <div className="blog-footer">
-                  <div className="post-author">
-                    <p className="author">Mehrzad Sajjadi</p>
-                  </div>
-                  <div className="post-date">
-                    <span className="bi bi-clock"></span> 10 min
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-4">
-              <div className="blog-box">
-                <div className="blog-img">
-                  <img src="./img/post-2.jpg" className="img-fluid" />
-                </div>
-                <div className="blog-content">
-                  <h3 className="blog-title">post title 1</h3>
-                  <p className="blog-desc">
-                    Proin eget tortor risus. Pellentesque in ipsum id orci porta
-                    dapibus. Praesent sapien massa, convallis a pellentesque nec,
-                    egestas non nisi.
-                  </p>
-                </div>
-                <div className="blog-footer">
-                  <div className="post-author">
-                    <p className="author">Milad Bahrami</p>
-                  </div>
-                  <div className="post-date">
-                    <span className="bi bi-clock"></span> 10 min
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-4">
-              <div className="blog-box">
-                <div className="blog-img">
-                  <img src="./img/post-3.jpg" className="img-fluid" />
-                </div>
-                <div className="blog-content">
-                  <h3 className="blog-title">post title 1</h3>
-                  <p className="blog-desc">
-                    Proin eget tortor risus. Pellentesque in ipsum id orci porta
-                    dapibus. Praesent sapien massa, convallis a pellentesque nec,
-                    egestas non nisi.
-                  </p>
-                </div>
-                <div className="blog-footer">
-                  <div className="post-author">
-                    <p className="author">Milad Bahrami</p>
-                  </div>
-                  <div className="post-date">
-                    <span className="bi bi-clock"></span> 10 min
-                  </div>
-                </div>
-              </div>
-            </div>
+            <BlogBox {...posts[0]} />            
+            <BlogBox {...posts[1]} />            
+            <BlogBox {...posts[2]} />            
           </div>
         </div>
       </section>
