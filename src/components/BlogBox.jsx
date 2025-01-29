@@ -1,11 +1,11 @@
 
 
-function BlogBox({title,user}){
+function BlogBox({img,title,user}){
  return(
     <div className="col-4">
         <div className="blog-box">
             <div className="blog-img">
-                <img src="./img/post-1.jpg" className="img-fluid" />
+                <img src={img} className="img-fluid" />
             </div>
             <div className="blog-content">
                 <h3 className="blog-title">{title}</h3>
