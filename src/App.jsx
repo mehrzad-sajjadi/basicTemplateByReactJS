@@ -9,16 +9,20 @@ import About from './components/About';
 import Service from './components/Service';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <Header />
-    <About />
-    <Service />
-    <Blog />
-    <Footer />
+function App(){
+  return(
+    <StrictMode>
+      <Header />
+      <About />
+      <Service />
+      <Blog />
+      <Footer />
 
-  </StrictMode>,
-)
+    </StrictMode>,
+  )
+}
 
 
-export default App ;
+export default App ; 
+
+

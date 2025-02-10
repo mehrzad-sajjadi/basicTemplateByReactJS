@@ -6,7 +6,7 @@ function ServiceBox({title,icon}){
                 <div className="service-icon">
                     <i className={icon} ></i>
                 </div>
-                <div class="service-content">
+                <div className="service-content">
                     <h3 className="service-title">{title}</h3>
                     <p className="service-info">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni

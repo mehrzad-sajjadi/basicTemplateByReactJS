@@ -2,12 +2,12 @@ import "../style/srvice.css"
 import ServiceBox from "./ServiceBox";
 
 let titles = [ 
-    {title : "WEB DESIGN" , icon :"bi bi-briefcase"},
-    {title : "WEB DEVELOPMENT", icon :"bi bi-card-checklist"},
-    {title : "PHOTOGRAPHY" ,icon :"bi bi-bar-chart"},
-    {title : "RESPONSIVE DESIGN" , icon :"bi bi-briefcase"},
-    {title : "GRAPHIC DESIGN" , icon :"bi bi-card-checklist"},
-    {title : "MARKETING SERVICES" ,icon :"bi bi-briefcase"}
+    {id:1 , title : "WEB DESIGN" , icon :"bi bi-briefcase"},
+    {id:2 , title : "WEB DEVELOPMENT", icon :"bi bi-card-checklist"},
+    {id:3 , title : "PHOTOGRAPHY" ,icon :"bi bi-bar-chart"},
+    {id:4 , title : "RESPONSIVE DESIGN" , icon :"bi bi-briefcase"},
+    {id:5 , title : "GRAPHIC DESIGN" , icon :"bi bi-card-checklist"},
+    {id:6 , title : "MARKETING SERVICES" ,icon :"bi bi-briefcase"}
 ]; 
 
 function Service(){
@@ -21,13 +21,9 @@ function Service(){
                     </p>
                 </div>
                 <div className="row">
-                    <ServiceBox {...titles[0]} />
-                    <ServiceBox {...titles[1]} />
-                    <ServiceBox {...titles[2]} />
-                    <ServiceBox {...titles[3]} />
-                    <ServiceBox {...titles[4]} />
-                    <ServiceBox {...titles[5]} />
-
+                    {
+                        titles.map((title)=><ServiceBox {...title} />)
+                    }
                 </div>
             </div>
       </section>

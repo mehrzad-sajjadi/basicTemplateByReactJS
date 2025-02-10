@@ -3,8 +3,8 @@ import "../style/footer.css"
 function Footer(){
     return(
         <footer>
-        <div class="container">
-          <p class="copyright">
+        <div className="container">
+          <p className="copyright">
             © Copyright <strong>Next1Code</strong>. All Rights Reserved
           </p>
           <p>Designed by next1code</p>
