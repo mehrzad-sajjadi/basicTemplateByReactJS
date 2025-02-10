@@ -17,9 +17,8 @@ function App(){
       <Service />
       <Blog />
       <Footer />
-
-    </StrictMode>,
-  )
+    </StrictMode>
+  );    
 }
 
 

@@ -22,7 +22,7 @@ function Service(){
                 </div>
                 <div className="row">
                     {
-                        titles.map((title)=><ServiceBox {...title} />)
+                        titles.map((title)=><ServiceBox key={title.id} {...title} />)
                     }
                 </div>
             </div>

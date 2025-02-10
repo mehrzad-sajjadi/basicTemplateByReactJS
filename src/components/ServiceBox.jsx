@@ -1,4 +1,3 @@
-
 function ServiceBox({title,icon}){
     return(
         <div className="col-4">
