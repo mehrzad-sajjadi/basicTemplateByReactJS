@@ -28,20 +28,20 @@ let posts = [
 function Blog(){
     return(
         <section id="blog">
-        <div className="container">
-          <div className="section-info">
-            <h2 className="section-title">BLOG</h2>
-            <p className="section-desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-          <div className="row">
-            <BlogBox {...posts[0]} />            
-            <BlogBox {...posts[1]} />            
-            <BlogBox {...posts[2]} />            
-          </div>
-        </div>
-      </section>
+            <div className="container">
+                <div className="section-info">
+                    <h2 className="section-title">BLOG</h2>
+                    <p className="section-desc">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div className="row">
+                    <BlogBox {...posts[0]} />            
+                    <BlogBox {...posts[1]} />            
+                    <BlogBox {...posts[2]} />            
+                </div>
+            </div>
+        </section>
   
     );
 }
