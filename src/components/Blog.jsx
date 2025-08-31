@@ -8,21 +8,21 @@ import post3 from "../../public/img/post-3.jpg";
 
 import BlogBox from "./BlogBox";
 let posts = [
-  { 
-    img : post1 ,
-    title:"post 1",
-    user : "Mehrzad",
-  },
-  { 
-    img : post2 ,
-    title:"post 2",
-    user : "Milad",
-  },
-  { 
-    img : post3 ,
-    title:"post 3",
-    user : "Mehrzad",
-  }
+    { 
+        img : post1 ,
+        title:"post 1",
+        user : "Mehrzad",
+    },
+    { 
+        img : post2 ,
+        title:"post 2",
+        user : "Milad",
+    },
+    { 
+        img : post3 ,
+        title:"post 3",
+        user : "Mehrzad",
+    }
 ]
 
 function Blog(){
@@ -32,7 +32,7 @@ function Blog(){
                 <div className="section-info">
                     <h2 className="section-title">BLOG</h2>
                     <p className="section-desc">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     </p>
                 </div>
                 <div className="row">
@@ -42,7 +42,6 @@ function Blog(){
                 </div>
             </div>
         </section>
-  
     );
 }
 
